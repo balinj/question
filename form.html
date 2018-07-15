@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Basic form</h2>
+  <form action="/action_page.php">
+     <div class="form-group">
+      <label for="Name">Name:</label>
+      <input type="name" class="form-control" id="name" placeholder="Enter name" name="name">
+    </div>
+    <div class="form-group">
+      <label for="Address">Address:</label>
+      <input type="address" class="form-control" id="address" placeholder="Enter address" name="address">
+    </div>
+  <div class="custom-control custom-radio">
+    <label for="Gender">Gender:</label><br>
+  <input type="radio" class="custom-control-input" id="defaultGroupExample1" name="groupOfDefaultRadios">
+  <label class="custom-control-label" for="defaultGroupExample1">Male</label>
+</div>
+
+<!-- Group of default radios - option 2 -->
+<div class="custom-control custom-radio">
+  <input type="radio" class="custom-control-input" id="defaultGroupExample2" name="groupOfDefaultRadios" checked>
+  <label class="custom-control-label" for="defaultGroupExample2">Female</label>
+</div>
+  
+  <div class="form-check form-check-inline">
+    <label for="Qualification">Educational Detail:</label><br>
+  <input type="checkbox" class="form-check-input" id="materialInline1">
+  <label class="form-check-label" for="materialInline1">10th</label>
+</div>
+
+<!-- Material inline 2 -->
+<div class="form-check form-check-inline">
+    <input type="checkbox" class="form-check-input" id="materialInline2">
+    <label class="form-check-label" for="materialInline2">12th</label>
+</div>
+
+<!-- Material inline 3 -->
+<div class="form-check form-check-inline">
+    <input type="checkbox" class="form-check-input" id="materialInline3">
+    <label class="form-check-label" for="materialInline3">UG</label>
+</div>
+<div class="form-check form-check-inline">
+    <input type="checkbox" class="form-check-input" id="materialInline3">
+    <label class="form-check-label" for="materialInline3">PG</label>
+</div>
+
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+    </div>
+    <div class="form-group">
+      <label for="pwd"> Confirm Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" name="remember"> Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
