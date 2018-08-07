@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button id="myBtn">My Button</button>
+<br><br>
+
+<button onclick="disableBtn()">Disable "My Button"</button>
+<button onclick="enableBtn()">Enable "My Button"</button>
+
+<script>
+function disableBtn() {
+    document.getElementById("myBtn").disabled = true;
+}
+
+function enableBtn() {
+    document.getElementById("myBtn").disabled = false;
+}
+</script>
+
+</body>
+</html>
